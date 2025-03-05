@@ -25,7 +25,7 @@ public class Operacoes {
             System.out.println("Seu cheque especial disponivel é de: R$" + (-this.cheque + this.saldo));
             return;
         }
-        System.out.println("Seu cheque especial disponivel é de: R$" + (this.cheque * -1));
+        System.out.println("Seu cheque especial disponivel é de: R$" + -this.cheque);
     }
 
     public void depositarSaldo(double saldo){
